@@ -1,0 +1,7 @@
+{
+  "name": "ShadeWalker",
+  "description": "A smart navigation assistant that finds the shadiest walking routes between two locations based on time of day, utilizing Gemini's semantic understanding of urban environments.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

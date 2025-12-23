@@ -1,0 +1,37 @@
+{
+  "name": "shadewalker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "@react-google-maps/api": "^2.20.7",
+    "@supabase/supabase-js": "^2.86.3-canary.0",
+    "@turf/helpers": "^7.3.1",
+    "@turf/invariant": "^7.3.1",
+    "@turf/union": "^7.3.1",
+    "clsx": "^2.1.1",
+    "geolib": "^3.3.4",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-is": "^18.0.0",
+    "recharts": "^3.5.1",
+    "suncalc": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.2",
+    "@types/suncalc": "^1.9.2",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
